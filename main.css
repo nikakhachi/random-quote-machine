@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+}
+
+#main-container {
+  font-family: "Montserrat", sans-serif;
+  width: 90%;
+  margin: auto;
+  margin-top: 14%;
+}
+
+#author {
+  font-size: 2.2vw;
+  margin: 2% 0px;
+  text-decoration: underline;
+}
+
+#quote {
+  font-size: 3vw;
+}
+
+button {
+  margin: 2%;
+  margin-top: 5%;
+  width: 20%;
+  font-size: 2vw;
+  border: none;
+  height: 8vh;
+}
+button:focus {
+  outline: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#tweet-btn {
+  background-color: #489fe0;
+}
+#new-quote {
+  background-color: #dd9e6c;
+  color: white;
+}
+
+#new-quote:hover {
+  background-color: #e2a471;
+}
+#tweet-btn:hover {
+  background-color: #55a9e9;
+}
+
+@media (max-width: 1024px) {
+  #main-container {
+    width: 95%;
+  }
+  #quote {
+    font-size: 8vw;
+  }
+  #author {
+    font-size: 6vw;
+  }
+  button {
+    height: 10vw;
+    width: 40%;
+    font-size: 4.5vw;
+  }
+}
